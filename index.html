@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gejusa Habit Tracker</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(135deg,#111827,#1f2937,#2563eb);
+      color:white;
+      overflow:hidden;
+    }
+
+    .container{
+      text-align:center;
+      animation:fadeIn 1s ease;
+    }
+
+    h1{
+      font-size:4rem;
+      margin-bottom:10px;
+    }
+
+    p{
+      font-size:1.2rem;
+      opacity:0.8;
+      margin-bottom:30px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:15px 35px;
+      background:white;
+      color:#2563eb;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:scale(1.05);
+    }
+
+    @keyframes fadeIn{
+      from{
+        opacity:0;
+        transform:translateY(20px);
+      }
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>GEJUSA</h1>
+    <p>Micro Habit Tracker</p>
+
+    <a class="btn" href="panel_de_h_bitos_gejusa_interactivo/index.html">
+      Entrar
+    </a>
+  </div>
+
+</body>
+</html>
